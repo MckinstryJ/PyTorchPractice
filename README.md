@@ -14,3 +14,6 @@ An introduction to PyTorch which includes:
 The audioclass.py file is an Audio Classifier based on the ESC-50 dataset. </br></br>
 I followed the steps outlined here: [Audio Classification](https://medium.com/@hasithsura/audio-classification-d37a82d6715)</br></br>
 However, the example is incomplete and his repo doesn't provide anything similar to what he mentioned in the article. This will have to be revisited to add the missing parts and provide similar results that are in his actual code. I have already made some improvements to his base code so I'll probably come back to this to continue my approach.
+
+## Mel Spectrogram
+The melspectro.py file is a simple example of how to build a Mel Spectrogram via some audio file. The Mel values could be used to generate a average value between bins and then with each new audio a correlation could be build to match it with a known example. Which would give the user a list of what the sound is based on a defined threshold.
