@@ -11,3 +11,6 @@ An introduction to PyTorch which includes:
 </ul>
 
 ## Audio Classifier
+The audioclass.py file is an Audio Classifier based on the ESC-50 dataset. </br></br>
+I followed the steps outlined here: [Audio Classification](https://medium.com/@hasithsura/audio-classification-d37a82d6715)</br></br>
+However, the example is incomplete and his repo doesn't provide anything similar to what he mentioned in the article. This will have to be revisited to add the missing parts and provide similar results that are in his actual code. I have already made some improvements to his base code so I'll probably come back to this to continue my approach.
