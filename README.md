@@ -21,5 +21,5 @@ The melspectro.py file is a simple example of how to build a Mel Spectrogram via
 ## Tensorboard (TODO)
 Major feature of PyTorch is being able to visualize the model and its progress in its training / testing. The file tensorboard.py shows a basic example of how to do that using the Fashion MNIST dataset. The code only shows a 4 image grid but I'll come back to this to develop it further.
 
-## Deep Q Network
-In the DQN.py file, I demostrate how one can build a Deep Q Network with PyTorch. A DQN is a reinforcement learning model that uses a neural network to approximate rewards for each action in a given state. In my OpenAI_RL project, the DQN does far better than most RL models but this example uses PyTorch instead of Keras.
+## Deep Q Network (TODO)
+In the DNN.py file, I've demostrate how you can build a Neural Net for Regression using PyTorch. With a few more lines of code, this could turn into a DQN model which will be completed next.
